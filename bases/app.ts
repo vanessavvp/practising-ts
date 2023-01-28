@@ -1,3 +1,5 @@
-const msg = 'Hello world!';
+(() => {
+  const a: number = 10;
 
-console.log(msg);
+  console.log(a);
+})();
